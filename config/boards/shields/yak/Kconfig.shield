@@ -1,2 +1,3 @@
 config SHIELD_YAK
    def_bool $(shields_list_contains,yak)
+   select SPI
